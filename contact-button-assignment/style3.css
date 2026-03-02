@@ -1,0 +1,47 @@
+/*
+MY COLOR PALETTE
+Lavendar - #cec2ff
+Turquoise - #75c9c8
+Cream - #f7f4ea
+Pink - #cf8ba9
+Lilac - #b3b3f1
+*/
+
+body {
+    background-color: #cec2ff;
+    text-align: center;
+}
+
+button {
+    background-color: #75c9c8;
+    color: #f7f4ea;
+    font-family: "Noto Sans", Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    text-align: center;
+    width: 150px;
+    padding: 2px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #cf8ba9;
+}
+
+h1 {
+    font-family: "Roboto", Verdana, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto", Verdana, sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
