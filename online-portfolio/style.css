@@ -1,0 +1,50 @@
+/*
+MY COLOR PALETTE
+Black - #2a2b2e
+Bright Green - #00a649
+Pale Green - #cbe1ba
+Olive Green - #b3c989
+White - #ffffff
+Pale Blue - #97c3ff
+Dark Blue - #0c00a6
+*/
+
+/* 
+ id needs a # (cannot be reused, so be careful)
+class needs a .
+ */
+
+body {
+    background-color:#cbe1ba;
+    text-align:center;
+}
+
+#headshot {
+    width:100%;
+    border-radius:18%;
+    border:none;
+    margin-top:20px;
+}
+
+#name {
+    font-family: "Lexend", Verdana, sans-serif;
+    color:#2a2b2e;
+    font-weight:bold;
+    margin:20px;
+    font-size:52px;
+}
+
+#identity {
+    font-family:"Noto Sans",Trebuchet MS,sans-serif;
+    color:#0c00a6;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+
+#contact {
+    font-family: "Lexend", Verdana, sans-serif;
+    color:#2a2b2e;
+    background-color:#97c3ff;
+    font-weight:bold;
+    margin-bottom:40px;
+}
