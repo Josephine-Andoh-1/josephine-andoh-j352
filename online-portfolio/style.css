@@ -4,8 +4,10 @@ Black - #2a2b2e
 Bright Green - #00a649
 Pale Green - #cbe1ba
 Olive Green - #b3c989
+Dark Green - #017233
 White - #ffffff
 Pale Blue - #97c3ff
+Medium Blue - #0a72ff
 Dark Blue - #0c00a6
 */
 
@@ -39,7 +41,7 @@ body {
 
 #identity {
     font-family:"Noto Sans",Trebuchet MS,sans-serif;
-    color:#0c00a6;
+    color:#017233;
     margin-bottom:40px;
 }
 
@@ -48,15 +50,17 @@ body {
     color:#2a2b2e;
     background-color:#97c3ff;
     font-weight:bold;
+    border-radius: 5px;
 }
 
 #contact:hover {
         background-color:#cf37cf;
     }
     
-#experience {
-    margin-bottom:20px;
+#experience, #skills, #education {
+    margin-bottom:40px;
     color:#017233;
+    font-weight: bold;
 }
 
 #navigation {
@@ -73,19 +77,21 @@ body {
         color:#cf37cf;
     }
     
-#topper1 {
+#topper1, #topper2, #topper3 {
     margin-bottom:2px;
 }
     
-#topper2 {
-        margin-bottom:2px;
+#tbe, #sbs, #rhema, #skills1, #skills2, #skills3{
+    color:#0a72ff;
     }
     
-#topper3 {
-        margin-bottom:2px;
+#skills1, #skills2, #skills3 {
+    display: inline-block;
+    text-align:left;
+    font-weight: 600;
+    list-style-position:inside;
     }
-    
-    
+
 }
 
 @media (min-width:576px) {
