@@ -107,7 +107,6 @@ class needs a .
     #skills2,
     #skills3 {
         display: block;
-        margin:auto;
         text-align: left;
         font-weight: 500;
     }
@@ -134,4 +133,36 @@ class needs a .
     h1 {
         font-size: 50px;
     }
+    
+    h2 {
+        font-size:35px;
+    }
+    
+    #graduation {
+    text-align:center;  
+    padding-left:70px;
+    }
+
+    #skills1, #skills2, #skills3 {
+        font-size:20px;
+    }
+    
+    #skills, #skillset {
+        padding-left: 55px;
+    }
+  
+    #degree, #school, #year {
+        font-size:25px;
+        margin-bottom:10px;
+    }
+    
+    }
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 65px;
+    }
+    
+    
+    
 }
