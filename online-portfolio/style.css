@@ -45,6 +45,7 @@ class needs a .
             sans-serif;
         color: #017233;
         margin-bottom: 40px;
+        font-weight:bold;
     }
 
     #contact {
@@ -117,12 +118,17 @@ class needs a .
 
     #year {
         color: #cf37cf;
+        margin-bottom:40px;
     }
  
 #rhemajob, #skillset {
     margin-bottom:80px;
     }
    
+#skills {
+        text-align:center;
+    }
+    
 #tbejob, #sbsjob {
     margin-bottom:15px;
     }
@@ -138,6 +144,14 @@ class needs a .
         font-size:35px;
     }
     
+    #headshot {
+        margin-bottom:50px;
+    }
+    
+    #navigation {
+        font-size:18px;
+    }
+    
     #graduation {
     text-align:center;  
     padding-left:70px;
@@ -147,10 +161,14 @@ class needs a .
         font-size:20px;
     }
     
-    #skills, #skillset {
+    #skillset {
         padding-left: 55px;
     }
   
+    #skills {
+        text-align:center;
+    }
+    
     #degree, #school, #year {
         font-size:25px;
         margin-bottom:10px;
@@ -164,12 +182,21 @@ class needs a .
         margin-bottom:50px;
     }
     
+    #navigation {
+        font-size:22px;
+    }
+    
     #identity {
         margin-bottom:45px;
+        font-size:50px;
     }
     
     #jobs {
         padding-left:20px;
+    }
+    
+    #skills {
+        text-align:center;
     }
     
 }
@@ -181,6 +208,11 @@ class needs a .
     
     #identity {
         margin-bottom:75px;
+        font-size:60px;
+    }
+    
+    #contact {
+        font-size:20px;
     }
     
     h1 {
@@ -191,10 +223,50 @@ class needs a .
         padding:0;
     }
     
-    #skills, #skillset {
+    #skillset {
         padding-left:100px;
+    }
+    
+    #skills {
+        text-align:center;
     }
     
 }
 
-
+@media (min-width:1200px) {
+    #name {
+        font-size:90px;
+    }
+    
+    #identity {
+        font-size:65px;
+    }
+    
+    #contact {
+        font-size:30px;
+    }
+    
+    #navigation, h4, #skillset{
+        font-size:25px;
+    }
+    
+    #skillset {
+        padding-left:135px;
+    }
+    
+    #skills {
+        text-align:center;
+    }
+    
+    h5 {
+        font-size:22px;
+    }
+    
+    h6 {
+        font-size:20px;
+    }
+    
+    p {
+        font-size:18px;
+    }
+}
