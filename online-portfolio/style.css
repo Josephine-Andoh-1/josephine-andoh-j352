@@ -16,86 +16,113 @@ Dark Blue - #0c00a6
 class needs a .
  */
 
-@media screen{
+@media screen {
+    body {
+        background-color: #cbe1ba;
+        text-align: center;
+    }
 
-body {
-    background-color:#cbe1ba;
-    text-align:center;
-}
+    #headshot {
+        width: 100%;
+        border-radius: 18%;
+        border: none;
+        margin-top: 20px;
+        margin-left: 4px;
+        margin-bottom: 20px;
+    }
 
-#headshot {
-    width:100%;
-    border-radius:18%;
-    border:none;
-    margin-top:20px;
-    margin-left:4px;
-    margin-bottom:20px;
-}
+    #name {
+        font-family: "Lexend", Verdana, sans-serif;
+        color: #0c00a6;
+        font-weight: bold;
+        margin: 20px;
+    }
 
-#name {
-    font-family: "Lexend", Verdana, sans-serif;
-    color:#2a2b2e;
-    font-weight:bold;
-    margin:20px;
-}
+    #identity {
+        font-family:
+            "Noto Sans",
+            Trebuchet MS,
+            sans-serif;
+        color: #017233;
+        margin-bottom: 40px;
+    }
 
-#identity {
-    font-family:"Noto Sans",Trebuchet MS,sans-serif;
-    color:#017233;
-    margin-bottom:40px;
-}
+    #contact {
+        font-family: "Lexend", Verdana, sans-serif;
+        color: #2a2b2e;
+        background-color: #97c3ff;
+        font-weight: bold;
+        border-radius: 5px;
+    }
 
-#contact {
-    font-family: "Lexend", Verdana, sans-serif;
-    color:#2a2b2e;
-    background-color:#97c3ff;
-    font-weight:bold;
-    border-radius: 5px;
-}
+    #contact:hover {
+        background-color: #cf37cf;
+    }
 
-#contact:hover {
-        background-color:#cf37cf;
+    #experience,
+    #skills,
+    #education {
+        margin-bottom: 35px;
+        color: #017233;
+        font-weight: bold;
+        font-family:"Noto Sans", Trebuchet MS, sans-serif;
+    }
+
+    #navigation {
+        margin-bottom: 40px;
+        background-color: #2a2b2e;
+    }
+
+    #navigation a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #navigation a:hover {
+        color: #cf37cf;
+    }
+
+    #topper1,
+    #topper2,
+    #topper3 {
+        margin-bottom: 2px;
+    }
+
+    #tbe,
+    #sbs,
+    #rhema,
+    #skills1,
+    #skills2,
+    #skills3,
+    #school {
+        color: #0a72ff;
+        font-family: "Lexend", Verdana, sans-serif;
+    }
+
+.col-sm-4, h4, h5, h6, p {
+     font-family: "Lexend", Verdana, sans-serif;   
     }
     
-#experience, #skills, #education {
-    margin-bottom:40px;
-    color:#017233;
-    font-weight: bold;
-}
-
-#navigation {
-    margin-bottom:40px;
-    background-color:#2a2b2e; 
-}
-
-#navigation a {
-    color:white;
-    text-decoration:none;
-    }
-  
-#navigation a:hover {
-        color:#cf37cf;
-    }
-    
-#topper1, #topper2, #topper3 {
-    margin-bottom:2px;
-}
-    
-#tbe, #sbs, #rhema, #skills1, #skills2, #skills3{
-    color:#0a72ff;
-    }
-    
-#skills1, #skills2, #skills3 {
-    display: inline-block;
-    text-align:left;
-    font-weight: 600;
-    list-style-position:inside;
+    #skills1,
+    #skills2,
+    #skills3 {
+        display: inline-block;
+        text-align: left;
+        list-style-position: inside;
+        font-weight: 500;
     }
 
+    #degree {
+        color: #0c00a6;
+    }
+
+    #year {
+        color: #cf37cf;
+    }
 }
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
     h1 {
-        font-size:50px;
+        font-size: 50px;
     }
 }
