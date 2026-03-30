@@ -48,7 +48,7 @@ class needs a .
         font-weight: bold;
     }
 
-    #contact {
+    button {
         font-family: "Lexend", Verdana, sans-serif;
         color: #2a2b2e;
         background-color: #97c3ff;
@@ -56,7 +56,7 @@ class needs a .
         border-radius: 5px;
     }
 
-    #contact:hover {
+    button:hover {
         background-color: #cf37cf;
     }
 
@@ -92,12 +92,8 @@ class needs a .
         margin-bottom: 2px;
     }
 
-    #tbe,
-    #sbs,
-    #rhema,
-    #skills1,
-    #skills2,
-    #skills3,
+    #jobs,
+    #skillset,
     #school {
         color: #0a72ff;
         font-family: "Lexend", Verdana, sans-serif;
@@ -165,13 +161,8 @@ class needs a .
         padding-left: 70px;
     }
 
-    #skills1,
-    #skills2,
-    #skills3 {
-        font-size: 20px;
-    }
-
     #skillset {
+        font-size: 20px;
         padding-left: 55px;
     }
 
@@ -229,7 +220,7 @@ class needs a .
         font-size: 60px;
     }
 
-    #contact {
+    button {
         font-size: 20px;
     }
 
@@ -263,7 +254,7 @@ class needs a .
         font-size: 65px;
     }
 
-    #contact,
+    button,
     #navigation {
         font-size: 30px;
     }
