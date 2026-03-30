@@ -156,7 +156,7 @@ class needs a .
         font-size: 18px;
     }
 
-    #graduation {
+    #education, #graduation {
         text-align: center;
         padding-left: 70px;
     }
