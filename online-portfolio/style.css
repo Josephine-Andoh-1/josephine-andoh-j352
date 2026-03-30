@@ -45,7 +45,7 @@ class needs a .
             sans-serif;
         color: #017233;
         margin-bottom: 40px;
-        font-weight:bold;
+        font-weight: bold;
     }
 
     #contact {
@@ -66,7 +66,10 @@ class needs a .
         margin-bottom: 35px;
         color: #017233;
         font-weight: bold;
-        font-family:"Noto Sans", Trebuchet MS, sans-serif;
+        font-family:
+            "Noto Sans",
+            Trebuchet MS,
+            sans-serif;
     }
 
     #navigation {
@@ -100,10 +103,14 @@ class needs a .
         font-family: "Lexend", Verdana, sans-serif;
     }
 
-.col-sm-4, h4, h5, h6, p {
-     font-family: "Lexend", Verdana, sans-serif;   
+    .col-sm-4,
+    h4,
+    h5,
+    h6,
+    p {
+        font-family: "Lexend", Verdana, sans-serif;
     }
-    
+
     #skills1,
     #skills2,
     #skills3 {
@@ -118,155 +125,170 @@ class needs a .
 
     #year {
         color: #cf37cf;
-        margin-bottom:40px;
+        margin-bottom: 40px;
     }
- 
-#rhemajob, #skillset {
-    margin-bottom:80px;
+
+    #rhemajob,
+    #skillset {
+        margin-bottom: 80px;
     }
-   
-#skills {
-        text-align:center;
+
+    #skills {
+        text-align: center;
     }
-    
-#tbejob, #sbsjob {
-    margin-bottom:15px;
+
+    #tbejob,
+    #sbsjob {
+        margin-bottom: 15px;
     }
-    
 }
 
 @media (min-width: 576px) {
     h1 {
         font-size: 50px;
     }
-    
+
     h2 {
-        font-size:35px;
-    }
-    
-    #headshot {
-        margin-bottom:50px;
-    }
-    
-    #navigation {
-        font-size:18px;
-    }
-    
-    #graduation {
-    text-align:center;  
-    padding-left:70px;
+        font-size: 35px;
     }
 
-    #skills1, #skills2, #skills3 {
-        font-size:20px;
+    #headshot {
+        margin-bottom: 50px;
     }
-    
+
+    #navigation {
+        font-size: 18px;
+    }
+
+    #graduation {
+        text-align: center;
+        padding-left: 70px;
+    }
+
+    #skills1,
+    #skills2,
+    #skills3 {
+        font-size: 20px;
+    }
+
     #skillset {
         padding-left: 55px;
     }
-  
+
     #skills {
-        text-align:center;
+        text-align: center;
+    }
+
+    #degree,
+    #school,
+    #year {
+        font-size: 25px;
     }
     
-    #degree, #school, #year {
-        font-size:25px;
+    #degree, #school {
         margin-bottom:10px;
     }
     
+    #year {
+        margin-bottom:60px;
     }
+    
+}
 
 @media (min-width: 768px) {
     #name {
-        font-size:65px;
-        margin-bottom:50px;
+        font-size: 65px;
+        margin-bottom: 50px;
     }
-    
+
     #navigation {
-        font-size:22px;
+        font-size: 22px;
     }
-    
+
     #identity {
-        margin-bottom:45px;
-        font-size:50px;
+        margin-bottom: 45px;
+        font-size: 50px;
     }
-    
+
     #jobs {
-        padding-left:20px;
+        padding-left: 20px;
     }
-    
+
     #skills {
-        text-align:center;
+        text-align: center;
     }
-    
 }
 
 @media (min-width: 992px) {
     #name {
-        font-size:80px;
+        font-size: 80px;
     }
-    
+
     #identity {
-        margin-bottom:75px;
-        font-size:60px;
+        margin-bottom: 75px;
+        font-size: 60px;
     }
-    
+
     #contact {
-        font-size:20px;
+        font-size: 20px;
     }
-    
+
     h1 {
-        font-size:70px;
+        font-size: 70px;
     }
-    
+
     #jobs {
-        padding:0;
+        padding: 0;
     }
-    
+
     #skillset {
-        padding-left:100px;
+        padding-left: 100px;
     }
-    
+
     #skills {
-        text-align:center;
+        text-align: center;
     }
     
+    #year {
+        margin-bottom:80px;
+    }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
     #name {
-        font-size:90px;
+        font-size: 90px;
     }
-    
+
     #identity {
-        font-size:65px;
+        font-size: 65px;
     }
-    
-    #contact {
-        font-size:30px;
+
+    #contact, #navigation {
+        font-size: 30px;
     }
-    
-    #navigation, h4, #skillset{
-        font-size:25px;
+
+    h4,
+    #skillset {
+        font-size: 25px;
     }
     
     #skillset {
-        padding-left:135px;
+        padding-left: 135px;
     }
-    
+
     #skills {
-        text-align:center;
+        text-align: center;
     }
-    
+
     h5 {
-        font-size:22px;
+        font-size: 22px;
     }
-    
+
     h6 {
-        font-size:20px;
+        font-size: 20px;
     }
-    
+
     p {
-        font-size:18px;
+        font-size: 18px;
     }
 }
