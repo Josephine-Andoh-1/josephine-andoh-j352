@@ -184,15 +184,15 @@ class needs a .
     #year {
         font-size: 25px;
     }
-    
-    #degree, #school {
-        margin-bottom:10px;
+
+    #degree,
+    #school {
+        margin-bottom: 10px;
     }
-    
+
     #year {
-        margin-bottom:60px;
+        margin-bottom: 60px;
     }
-    
 }
 
 @media (min-width: 768px) {
@@ -248,9 +248,9 @@ class needs a .
     #skills {
         text-align: center;
     }
-    
+
     #year {
-        margin-bottom:80px;
+        margin-bottom: 80px;
     }
 }
 
@@ -263,7 +263,8 @@ class needs a .
         font-size: 65px;
     }
 
-    #contact, #navigation {
+    #contact,
+    #navigation {
         font-size: 30px;
     }
 
@@ -271,7 +272,7 @@ class needs a .
     #skillset {
         font-size: 25px;
     }
-    
+
     #skillset {
         padding-left: 135px;
     }
