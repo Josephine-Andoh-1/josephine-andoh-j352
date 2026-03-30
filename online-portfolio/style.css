@@ -120,7 +120,7 @@ class needs a .
     }
  
 #rhemajob, #skillset {
-    margin-bottom:50px;
+    margin-bottom:80px;
     }
    
 #tbejob, #sbsjob {
@@ -159,10 +159,42 @@ class needs a .
     }
 
 @media (min-width: 768px) {
-    h1 {
-        font-size: 65px;
+    #name {
+        font-size:65px;
+        margin-bottom:50px;
     }
     
+    #identity {
+        margin-bottom:45px;
+    }
     
+    #jobs {
+        padding-left:20px;
+    }
     
 }
+
+@media (min-width: 992px) {
+    #name {
+        font-size:80px;
+    }
+    
+    #identity {
+        margin-bottom:75px;
+    }
+    
+    h1 {
+        font-size:70px;
+    }
+    
+    #jobs {
+        padding:0;
+    }
+    
+    #skills, #skillset {
+        padding-left:100px;
+    }
+    
+}
+
+
