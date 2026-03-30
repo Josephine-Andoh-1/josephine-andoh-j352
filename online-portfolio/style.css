@@ -92,7 +92,9 @@ class needs a .
         margin-bottom: 2px;
     }
 
-    #tbe, #sbs, #rhema,
+    #tbe,
+    #sbs,
+    #rhema,
     #skillset,
     #school {
         color: #0a72ff;
@@ -156,7 +158,8 @@ class needs a .
         font-size: 18px;
     }
 
-    #education, #graduation {
+    #education,
+    #graduation {
         text-align: center;
         padding-left: 70px;
     }
