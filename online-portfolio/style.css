@@ -106,9 +106,9 @@ class needs a .
     #skills1,
     #skills2,
     #skills3 {
-        display: inline-block;
+        display: block;
+        margin:auto;
         text-align: left;
-        list-style-position: inside;
         font-weight: 500;
     }
 
@@ -119,6 +119,15 @@ class needs a .
     #year {
         color: #cf37cf;
     }
+ 
+#rhemajob, #skillset {
+    margin-bottom:50px;
+    }
+   
+#tbejob, #sbsjob {
+    margin-bottom:15px;
+    }
+    
 }
 
 @media (min-width: 576px) {
