@@ -1,0 +1,44 @@
+@media screen {
+    #headshot {
+        width: 300px;
+        float: none;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    /*Must be remembered for the midterm*/
+    #contact a {
+        /*Must be remembered for the midterm*/
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+    }
+
+    #contact a:hover {
+        color: red;
+    }
+
+    #info {
+        width: 500px;
+        margin: auto;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+        background-color: #407eec;
+        color: white;
+        padding: 12px;
+        width: 600px;
+    }
+}
+
+@media (min-width:576px) {
+    #headshot {
+        width: 300px;
+        float: left;
+        margin-right: 20px;
+    }
+}
