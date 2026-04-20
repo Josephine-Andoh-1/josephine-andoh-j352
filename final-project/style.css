@@ -1,0 +1,48 @@
+@media screen {
+    body {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-family: "Lexend", Verdana, sans-serif;
+        font-size: 40px;
+    }
+
+    p {
+        font-family:
+            "Noto Sans",
+            Trebuchet MS,
+            sans-serif;
+
+        margin-top: 15px;
+    }
+
+    #superbaby {
+        width: 100%;
+    }
+
+    #title {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+    
+}
