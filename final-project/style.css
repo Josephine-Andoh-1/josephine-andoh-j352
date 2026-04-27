@@ -26,7 +26,7 @@ pull quote = <div class="pullquote">
             "Noto Sans",
             Trebuchet MS,
             sans-serif;
-        font-size:15.5px;
+        font-size: 15.5px;
     }
 
     img {
@@ -43,14 +43,14 @@ pull quote = <div class="pullquote">
     }
 
     hr {
-        background-color:#3e9d71;
-        border:none;
-        height:2px;
+        background-color: Green;
+        border: none;
+        height: 2px;
     }
-    
+
     #byline {
         margin-top: 4%;
-        font-size:2px;
+        font-size: 2px;
     }
 
     #article {
@@ -72,11 +72,11 @@ pull quote = <div class="pullquote">
 
     #tweet {
         width: 100%;
-        text-align:center;
+        text-align: center;
     }
-    
+
     #subtitle {
-        margin-bottom:4%;
+        margin-bottom: 4%;
     }
 }
 
@@ -97,9 +97,9 @@ pull quote = <div class="pullquote">
     #byline {
         margin-top: 5%;
     }
-    
+
     #article {
-        margin-top:6%;
+        margin-top: 6%;
     }
 }
 
