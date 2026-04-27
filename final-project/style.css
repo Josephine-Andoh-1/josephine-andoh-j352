@@ -14,8 +14,6 @@
             "Noto Sans",
             Trebuchet MS,
             sans-serif;
-
-        margin-top: 15px;
     }
 
     #superbaby {
@@ -25,6 +23,14 @@
     #title {
         margin-top: 40px;
         text-align: center;
+    }
+
+    #description {
+        margin-top: 25px;
+    }
+
+    #byline {
+        margin-top: 20px;
     }
 }
 
@@ -44,5 +50,4 @@
 }
 
 @media (min-width: 1200px) {
-    
 }
