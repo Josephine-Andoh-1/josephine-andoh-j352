@@ -45,11 +45,15 @@ pull quote = <div class="pullquote">
         background-color: Green;
         border: none;
         height: 2px;
+        width: 70%;
+        margin: auto;
+        text-align: center;
     }
 
     #byline {
         margin-top: 4%;
         font-size: 2px;
+        text-align: center;
     }
 
     #article {
