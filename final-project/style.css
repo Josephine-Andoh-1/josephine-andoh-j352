@@ -54,6 +54,7 @@ pull quote = <div class="pullquote">
 
     #article {
         margin-top: 6%;
+        width:90%
     }
 
     #byline a:hover {
