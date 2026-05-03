@@ -54,6 +54,7 @@ pull quote = <div class="pullquote">
         margin-top: 4%;
         font-size: 2px;
         width: 70%;
+        text-align: center;
     }
 
     #article {
