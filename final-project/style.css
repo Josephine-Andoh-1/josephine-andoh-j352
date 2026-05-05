@@ -68,16 +68,25 @@ pull quote = <div class="pullquote">
 
     #article a:hover {
         color: #3e9d71;
+        text-decoration:underline;
     }
 
+    #article a {
+        color:#3e9d71;
+        text-decoration:none;
+        font-weight:750;
+    }
+    
     .caption {
         font-size: 9px;
         margin-top: 2px;
     }
 
-    #tweet {
+    .phelps {
         width: 100%;
         text-align: center;
+        align-content: center;
+        justify-content: center;
     }
 
     .subtitle {
@@ -87,6 +96,11 @@ pull quote = <div class="pullquote">
 
     #chart {
         margin-bottom: 20px;
+    }
+    
+    #superbaby {
+        margin: 0px;
+        padding: 0px;
     }
 }
 
