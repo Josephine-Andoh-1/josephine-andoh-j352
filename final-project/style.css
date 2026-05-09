@@ -68,7 +68,7 @@ change caption position in media queries, as well as article width
         text-align: center;
     }
 
-    #article {
+    #article{
         margin-top: 6%;
         width: 70%;
     }
@@ -105,8 +105,9 @@ change caption position in media queries, as well as article width
         padding: 0;
     }
     
-    #last_sentence {
-        margin-top: 40px;
+    #ending {
+        width: 70%;
+        margin-top: 2%
     }
 }
 
