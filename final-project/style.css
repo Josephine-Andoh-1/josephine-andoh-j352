@@ -91,6 +91,7 @@ change caption position in media queries, as well as article width
 
     .phelps {
         width: 100%;
+        margin-bottom: 8%;
     }
 
     .subtitle {
@@ -99,7 +100,7 @@ change caption position in media queries, as well as article width
     }
 
     #chart {
-        margin-bottom: 20px;
+        margin-bottom: 10%;
     }
 
     #superbaby {
@@ -108,18 +109,18 @@ change caption position in media queries, as well as article width
     
     #ending {
         width: 70%;
-        margin-bottom: 5%;
+        margin-bottom: 10px;
     }
     
-    #margin {
-     margin-top: 10%;   
-    margin-bottom: 12%;
+    #end_block {
+     margin-top: 20px;   
+    margin-bottom: 38px;
     }
 }
 
 @media (min-width: 576px) {
     h1 {
-        font-size: 60px;
+        font-size: 80px;
     }
 
     #caption {
