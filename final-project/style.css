@@ -70,7 +70,7 @@ change caption position in media queries, as well as article width
 
     #article{
         margin-top: 6%;
-        width: 70%;
+        width: 80%;
     }
 
     a {
@@ -85,7 +85,8 @@ change caption position in media queries, as well as article width
 
     .caption {
         font-size: 9px;
-        margin-top: 2px;
+        margin-top: 0.5%;
+        margin-bottom: 7%;
     }
 
     .phelps {
@@ -107,7 +108,12 @@ change caption position in media queries, as well as article width
     
     #ending {
         width: 70%;
-        margin-top: 2%
+        margin-bottom: 5%;
+    }
+    
+    #margin {
+     margin-top: 10%;   
+    margin-bottom: 12%;
     }
 }
 
@@ -131,6 +137,7 @@ change caption position in media queries, as well as article width
 
     #article {
         margin-top: 6%;
+        width: 70%
     }
 }
 
