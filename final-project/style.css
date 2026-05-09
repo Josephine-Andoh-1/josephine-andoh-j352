@@ -128,7 +128,7 @@ change caption position in media queries, as well as article width
 
 @media (min-width: 576px) {
     h1 {
-        font-size: 60px;
+        font-size: 90px;
     }
 
     #caption1 {
@@ -152,6 +152,7 @@ change caption position in media queries, as well as article width
 
     .caption {
         font-size: 10px;
+        margin-bottom: 5%;
     }
 
     #caption1 {
