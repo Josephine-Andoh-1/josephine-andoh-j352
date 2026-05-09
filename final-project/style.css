@@ -70,7 +70,7 @@ change caption position in media queries, as well as article width
         height: 2px;
     }
 
-    hr, #article {
+    hr, #article, #ending, #end-block {
         width: 80%;
     }
     
@@ -113,8 +113,8 @@ change caption position in media queries, as well as article width
     }
 
     #ending {
-        width: 80%;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     #end_block {
@@ -137,9 +137,12 @@ change caption position in media queries, as well as article width
         margin-top: 5%;
     }
 
+    #article, #ending {
+        width: 78%;
+    }
+    
     #article {
         margin-top: 6%;
-        width: 78%;
     }
 
     .caption {
@@ -167,6 +170,16 @@ was 80
     
      #caption1 {
         margin-left: 8px;
+    }
+    
+    #article, #ending {
+        width: 70%;
+    }
+    
+    .subtitle {
+        margin-top: 5%;
+        margin-bottom: 3%;
+        font-size: 45px;
     }
 }
 
