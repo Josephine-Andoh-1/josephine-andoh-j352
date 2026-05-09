@@ -70,10 +70,13 @@ change caption position in media queries, as well as article width
         height: 2px;
     }
 
-    hr, #article, #ending, #end-block {
+    hr,
+    #article,
+    #ending,
+    #end-block {
         width: 80%;
     }
-    
+
     #byline {
         width: 70%;
     }
@@ -127,20 +130,22 @@ change caption position in media queries, as well as article width
     h1 {
         font-size: 60px;
     }
-       
+
     #caption1 {
         font-size: 12px;
         margin-top: 3px;
     }
 
-    #title, #byline {
+    #title,
+    #byline {
         margin-top: 5%;
     }
 
-    #article, #ending {
+    #article,
+    #ending {
         width: 78%;
     }
-    
+
     #article {
         margin-top: 6%;
     }
@@ -148,7 +153,7 @@ change caption position in media queries, as well as article width
     .caption {
         font-size: 10px;
     }
-    
+
     #caption1 {
         font-size: 11px;
         margin-left: 6px;
@@ -157,35 +162,40 @@ change caption position in media queries, as well as article width
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 100px;
+        font-size: 80px;
     }
 
-/*
-was 80
- */ 
-    
     #byline {
         margin-top: 3%;
     }
-    
-     #caption1 {
+
+    #caption1 {
         margin-left: 8px;
     }
-    
-    #article, #ending {
+
+    #article,
+    #ending {
         width: 70%;
     }
-    
+
     .subtitle {
         margin-top: 5%;
         margin-bottom: 3%;
-        font-size: 45px;
     }
 }
 
 @media (min-width: 992px) {
     #byline {
         margin-top: 1%;
+    }
+
+    h1 {
+        font-size: 120px;
+    }
+
+    #article,
+    #ending {
+        width: 72%;
     }
 }
 
