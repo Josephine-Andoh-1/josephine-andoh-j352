@@ -45,6 +45,7 @@ change caption position in media queries, as well as article width
 
     #caption1 {
         margin: 0;
+        margin-left: 4px;
     }
 
     #title,
@@ -127,7 +128,7 @@ change caption position in media queries, as well as article width
         font-size: 60px;
     }
        
-    #caption {
+    #caption1 {
         font-size: 12px;
         margin-top: 3px;
     }
@@ -147,6 +148,7 @@ change caption position in media queries, as well as article width
     
     #caption1 {
         font-size: 11px;
+        margin-left: 6px;
     }
 }
 
@@ -161,6 +163,10 @@ was 80
     
     #byline {
         margin-top: 3%;
+    }
+    
+     #caption1 {
+        margin-left: 8px;
     }
 }
 
