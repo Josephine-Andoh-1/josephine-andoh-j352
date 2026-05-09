@@ -67,15 +67,14 @@ change caption position in media queries, as well as article width
         background-color: Green;
         border: none;
         height: 2px;
-        width: 80%;
     }
 
+    hr, #article {
+        width: 80%;
+    }
+    
     #byline {
         width: 70%;
-    }
-
-    #article {
-        width: 80%;
     }
 
     a {
@@ -113,49 +112,53 @@ change caption position in media queries, as well as article width
     }
 
     #ending {
-        width: 70%;
+        width: 80%;
         margin-bottom: 10px;
     }
 
     #end_block {
         margin-top: 20px;
-        margin-bottom: 38px;
+        margin-bottom: 37px;
     }
 }
 
 @media (min-width: 576px) {
     h1 {
-        font-size: 80px;
+        font-size: 60px;
     }
-
+       
     #caption {
         font-size: 12px;
         margin-top: 3px;
     }
 
-    #title {
-        margin-top: 5%;
-    }
-
-    #byline {
+    #title, #byline {
         margin-top: 5%;
     }
 
     #article {
         margin-top: 6%;
-        width: 75%;
+        width: 78%;
     }
 
-    #caption1 {
+    .caption {
         font-size: 10px;
+    }
+    
+    #caption1 {
+        font-size: 11px;
     }
 }
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 80px;
+        font-size: 100px;
     }
 
+/*
+was 80
+ */ 
+    
     #byline {
         margin-top: 3%;
     }
