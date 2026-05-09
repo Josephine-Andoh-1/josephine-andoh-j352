@@ -104,6 +104,10 @@ change caption position in media queries, as well as article width
     #superbaby {
         padding: 0;
     }
+    
+    #last_sentence {
+        margin-top: 40px;
+    }
 }
 
 @media (min-width: 576px) {
