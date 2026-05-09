@@ -32,6 +32,11 @@ pull quote = <div class="pullquote">
         width: 100%;
     }
 
+    #caption1 {
+        margin: 0;
+        text-align: center;
+    }
+    
     #title {
         margin-top: 6%;
         text-align: center;
@@ -62,16 +67,13 @@ pull quote = <div class="pullquote">
         width: 70%;
     }
 
-    #byline a,
-    #article a {
+    a {
         color: #3e9d71;
         text-decoration: none;
         font-weight: 650;
     }
 
-    #byline a:hover,
-    #article a:hover {
-        color: #3e9d71;
+    a:hover {
         text-decoration: underline;
     }
 
