@@ -1,6 +1,9 @@
 /*
 MY COLOR PALETTE
 Ocean Green - #3e9d71
+Light Gray - #f8f8f8
+Green
+Black
 */
 
 /*
@@ -8,6 +11,10 @@ pull quote = <div class="pullquote">
 <p class="quote">
 <p class="attribution">
 */
+
+/*
+change caption position in media queries, as well as article width
+ */
 
 @media screen {
     body {
@@ -34,9 +41,8 @@ pull quote = <div class="pullquote">
 
     #caption1 {
         margin: 0;
-        text-align: center;
     }
-    
+
     #title {
         margin-top: 6%;
         text-align: center;
