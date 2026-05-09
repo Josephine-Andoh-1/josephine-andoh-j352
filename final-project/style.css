@@ -190,14 +190,21 @@ change caption position in media queries, as well as article width
     }
 
     h1 {
-        font-size: 120px;
+        font-size: 80px;
     }
 
     #article,
     #ending {
-        width: 72%;
+        width: 68%;
+    }
+    
+    #article {
+        margin-top: 3%;
     }
 }
 
 @media (min-width: 1200px) {
+    h1 {
+        font-size: 300px;
+    }
 }
