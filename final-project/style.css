@@ -62,21 +62,19 @@ pull quote = <div class="pullquote">
         width: 70%;
     }
 
-    #byline a:hover {
+    #byline a,
+    #article a {
         color: #3e9d71;
+        text-decoration: none;
+        font-weight: 650;
     }
 
+    #byline a:hover,
     #article a:hover {
         color: #3e9d71;
-        text-decoration:underline;
+        text-decoration: underline;
     }
 
-    #article a {
-        color:#3e9d71;
-        text-decoration:none;
-        font-weight:750;
-    }
-    
     .caption {
         font-size: 9px;
         margin-top: 2px;
@@ -84,9 +82,6 @@ pull quote = <div class="pullquote">
 
     .phelps {
         width: 100%;
-        text-align: center;
-        align-content: center;
-        justify-content: center;
     }
 
     .subtitle {
@@ -97,10 +92,9 @@ pull quote = <div class="pullquote">
     #chart {
         margin-bottom: 20px;
     }
-    
+
     #superbaby {
-        margin: 0px;
-        padding: 0px;
+        padding: 0;
     }
 }
 
