@@ -18,10 +18,13 @@ change caption position in media queries, as well as article width
 
 @media screen {
     body {
-        margin: auto;
         background-color: #f8f8f8;
     }
 
+    body, hr {
+        margin: auto;
+    }
+    
     h1 {
         font-family: "Lexend", Verdana, sans-serif;
         font-size: 45px;
@@ -43,12 +46,15 @@ change caption position in media queries, as well as article width
         margin: 0;
     }
 
-    #title {
+    #title, #article {
         margin-top: 6%;
+    }
+    
+    #title {
         text-align: center;
     }
 
-    #description {
+    #description, #byline {
         margin-top: 4%;
     }
 
@@ -57,19 +63,16 @@ change caption position in media queries, as well as article width
         border: none;
         height: 2px;
         width: 80%;
-        margin: auto;
         text-align: center;
     }
 
     #byline {
-        margin-top: 4%;
         font-size: 2px;
         width: 70%;
         text-align: center;
     }
 
     #article{
-        margin-top: 6%;
         width: 80%;
     }
 
