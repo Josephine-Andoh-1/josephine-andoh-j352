@@ -106,6 +106,15 @@ Next steps:
     #chart {
         margin-bottom: 10%;
     }
+    
+    .pullquote {
+        text-decoration: underline;
+    }
+    
+    .attribution {
+        text-align: center;
+        margin-bottom: 20%;
+    }
 
     #superbaby {
         padding: 0;
