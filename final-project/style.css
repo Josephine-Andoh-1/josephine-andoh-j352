@@ -10,7 +10,7 @@ Black
     body {
         background-color: #f8f8f8;
     }
-    
+
     #silicon {
         font-family: "Michroma", Verdana, sans-serif;
         font-size: 45px;
@@ -47,7 +47,9 @@ Black
 
     #title,
     hr,
-    #byline, .pullquote, #ending {
+    #byline,
+    .pullquote,
+    #ending {
         text-align: center;
     }
 
@@ -76,12 +78,14 @@ Black
     a {
         font-weight: 650;
     }
-    
-    a, .pullquote {
+
+    a,
+    .pullquote {
         color: #3e9d71;
     }
-    
-    a, .quotemark {
+
+    a,
+    .quotemark {
         text-decoration: none;
     }
 
@@ -95,11 +99,13 @@ Black
         margin-bottom: 7%;
         font-weight: 540;
     }
-    
-    .caption, .quote, .attribution {
+
+    .caption,
+    .quote,
+    .attribution {
         font-family: "Cause", Tahoma, sans-serif;
     }
-    
+
     .phelps {
         width: 100%;
         margin-bottom: 8%;
@@ -148,13 +154,14 @@ Black
 }
 
 @media (min-width: 576px) {
-    #silicon, .subtitle {
-        font-size: 100px;
+    #silicon {
+        font-size: 60px;
     }
-    
-    /*
-was 60
-*/
+
+    .subtitle {
+        margin-bottom: 2%;
+        font-size: 55px;
+    }
 
     #caption1 {
         font-size: 12px;
@@ -171,7 +178,8 @@ was 60
         width: 78%;
     }
 
-    #article {
+    #article,
+    .subtitle {
         margin-top: 6%;
     }
 
@@ -186,13 +194,14 @@ was 60
 
     .flourish-embed,
     .phelps,
-    .caption, .attribution {
+    .caption,
+    .attribution {
         margin-bottom: 5.5%;
     }
 }
 
 @media (min-width: 768px) {
-    #silicon, .subtitle {
+    #silicon {
         font-size: 70px;
     }
 
@@ -204,24 +213,75 @@ was 60
         margin-left: 8px;
     }
 
+    .caption {
+        font-size: 11px;
+    }
+
+    .flourish-embed,
+    .phelps,
+    .caption,
+    .attribution {
+        margin-bottom: 4%;
+    }
+
+    .words {
+        font-size: 40px;
+    }
+
+    .quotemark {
+        font-size: 42px;
+    }
+
+    .attribution {
+        font-size: 22px;
+    }
+
+    #article {
+        margin-top: 5%;
+    }
+
     #article,
     #ending {
         width: 70%;
     }
 
     .subtitle {
+        font-size: 60px;
         margin-top: 5%;
         margin-bottom: 3%;
     }
 }
 
 @media (min-width: 992px) {
-    #byline {
+    #byline,
+    #title {
         margin-top: 1%;
     }
 
-    #silicon, .subtitle {
-        font-size: 80px;
+    #silicon {
+        font-size: 20px;
+    }
+
+    /*
+was 80
+*/
+
+    .subtitle {
+        font-size: 62px;
+        margin-bottom: 2.2%;
+        margin-top: 4%;
+    }
+
+    .words {
+        font-size: 44px;
+    }
+
+    .quotemark {
+        font-size: 46px;
+    }
+
+    .attribution {
+        font-size: 26px;
     }
 
     #article,
@@ -229,8 +289,8 @@ was 60
         width: 68%;
     }
 
-    #article {
-        margin-top: 3%;
+    p {
+        font-size: 15.5px;
     }
 
     .flourish-embed,
@@ -241,12 +301,18 @@ was 60
 }
 
 @media (min-width: 1200px) {
-    #silicon, .subtitle {
+    #silicon {
         font-size: 90px;
+    }
+
+    .subtitle {
+        font-size: 70px;
+        margin-bottom: 1.2%;
+        margin-top: 3%;
     }
 
     #article,
     #ending {
-        width: 65%;
+        width: 62%;
     }
 }
