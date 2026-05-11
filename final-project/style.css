@@ -106,27 +106,26 @@ Next steps:
     #chart {
         margin-bottom: 10%;
     }
-    
+
     .pullquote {
         text-align: center;
-        color: #3e9d71
+        color: #3e9d71;
     }
-    
+
     .words {
         font-weight: 700;
         font-size: 25px;
     }
-    
+
     .quotemark {
         font-size: 40px;
         text-decoration: none;
         line-height: 40px;
     }
-    
+
     .attribution {
         margin-top: 5%;
         margin-bottom: 15%;
-        
     }
 
     #superbaby {
