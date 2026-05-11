@@ -108,12 +108,25 @@ Next steps:
     }
     
     .pullquote {
-        text-decoration: underline;
+        text-align: center;
+        color: #3e9d71
+    }
+    
+    .words {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .quotemark {
+        font-size: 40px;
+        text-decoration: none;
+        line-height: 40px;
     }
     
     .attribution {
-        text-align: center;
-        margin-bottom: 20%;
+        margin-top: 5%;
+        margin-bottom: 15%;
+        
     }
 
     #superbaby {
