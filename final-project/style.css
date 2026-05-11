@@ -84,12 +84,7 @@ Black
         color: #3e9d71;
     }
 
-    a,
-    .quotemark {
-        text-decoration: none;
-    }
-
-    a:hover {
+    a {
         text-decoration: underline;
     }
 
